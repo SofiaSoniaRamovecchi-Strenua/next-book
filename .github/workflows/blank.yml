@@ -15,17 +15,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Establecer la versión de Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '14.x'
 
       - name: Install dependencies
-        run: |
-          npm install express --save
-          npm install typescript ts-node @types/node @types/express --save-dev
-          
-      - name: Build TypeScript project
-        run: npm run build
+        run: npm install
+
+      - name: Build the app
+        run: npx tsc
+
 
