@@ -2,11 +2,11 @@
   "name": "my-express-app",
   "version": "1.0.0",
   "description": "My Express app",
-  "main": "dist/index.js",  // Cambiado a dist/index.js
+  "main": "dist/index.js", 
   "scripts": {
-    "start": "ts-node src/index.ts",  // Ejecutar directamente con ts-node
-    "build": "tsc",  // Compilar TypeScript
-    "serve": "node dist/index.js",  // Ejecutar el servidor después de compilar
+    "start": "ts-node src/index.ts",  
+    "build": "tsc",  
+    "serve": "node dist/index.js", 
     "postbuild": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh"
   },
   "dependencies": {
