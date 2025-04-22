@@ -1,5 +1,18 @@
-"scripts": {
-  "start": "ts-node src/index.ts",
-  "build": "tsc",
-  "serve": "node dist/index.js"
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "My Express app",
+  "main": "index.js",
+  "scripts": {
+      "start": "ts-node src/index.ts",
+      "build": "tsc",
+      "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  }
 }
