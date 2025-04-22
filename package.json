@@ -10,7 +10,7 @@
     "postbuild": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "typescript": "^4.5.2",
