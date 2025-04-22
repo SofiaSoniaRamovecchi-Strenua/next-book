@@ -39,4 +39,5 @@ jobs:
           # Install express, typescript and type
           npm install express --save
           npm install typescript ts-node @types/node @types/express --save-dev
+          npm run build
         
